@@ -1,0 +1,67 @@
+body{
+  overflow: hidden;
+  background:linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)), url(background.jpg);
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+h2{
+  text-align: center;
+  padding: 13px;
+  color: white;
+}
+
+.MainContainer {
+ perspective: 1px;
+ transform-style: preserve-3d;
+ height: 100vh;
+ overflow-x: hidden;
+ overflow-y: scroll;
+}
+.ParallaxContainer {
+ display: flex;
+ flex: 1 0 auto;
+ position: relative;
+ height: 100vh;
+ transform: translateZ(-1px) scale(2);
+ z-index: -1;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+.ContentContainer {
+ display: block;
+ position: relative;
+ height: 100vh;
+ z-index: 1;
+}
+.ContentContainer2 {
+ display: flex;
+ position: relative;
+ height: 100vh;
+ background-image: url(Space_The_black_hole_in_the_blue_haze_098077_.jpg);
+ background-position: center;
+ z-index: 1;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+.ContentContainer3 {
+ display: flex;
+ position: relative;
+ height: 100vh;
+ background-image: url();
+ background-repeat: no-repeat;
+ background-position: center;
+ z-index: 1;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+
+.center{
+  height: 200px;
+
+}
