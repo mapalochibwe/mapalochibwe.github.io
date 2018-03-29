@@ -1,0 +1,19 @@
+#p1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+border:1px dotted;
+}
+ul a{
+  color: orange;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+
+#p2{font-family: monospace;
+font-size: 13px;
+
+}

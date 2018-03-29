@@ -1,0 +1,50 @@
+p {
+  color: orange;
+  font: 20px;
+}
+#myparagraphfirst-list
+{color:white
+;
+text-decoration: underline;
+font-style: italic;
+font-size: 16px;
+
+}
+.text-right{
+  text-align: right;
+  color: white;
+  font-style: italic;
+  padding-right: 150px;
+}
+
+.underline{
+  text-decoration:underline;
+  font-style: italic;
+  font-size: 16px;
+}
+ul, a:hover{
+  color: white;
+  font-size: 20px
+}
+#first-list{
+  color: blue;
+  font-size: 16px;
+}
+
+#second-list{
+  color:blue;
+  font-size: 16px;
+}
+
+body{background: skyblue;
+  color: darkblue;
+  font-size: 16px;
+}
+.first-list{
+  color: blue;
+  font-style: italic;
+}
+p{
+  color: blue;
+  font-family: monospace;
+}
